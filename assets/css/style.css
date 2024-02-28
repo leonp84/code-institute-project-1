@@ -1,9 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
+/*
+COLORS
+
+Blood Red #5A120A
+Rosy Brown #B49489
+Bistre #281C13
+Brown Sugar #B97D58
+Van Dyke #37292A
+
+*/
+
 body {
     min-height: 100vh;
     padding: 0;
-    margin: 1px;
+    margin: 0;
     /* min-height: 3000px; */
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -18,20 +30,44 @@ p {
     line-height: 150%;
 }
 
-.main-heading {
+main {
+    margin-top: 100px;
+}
+
+.logo {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 700;
-    font-size: 80px;
+    font-size: 70px;
+    line-height: 100%;
+}
+
+.tagline {
+    height: auto;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    padding: 10px 30px;
 }
 
 .secondary-heading {
     font-family: "Josefin Sans", sans-serif;
-    font-weight: 600;
-    font-size: 40px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 120%;
+    color: whitesmoke;
+}
+
+.tertiary-heading {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    color: black;
+    padding: 0 15px;
 }
 
 header {
     position: fixed;
+    top: 0px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -40,7 +76,7 @@ header {
     height: 100px;
     width: 100%;
     padding: 0 15px;
-    background-color: black;
+    background-color: #281C13;
     border-bottom: 2px solid whitesmoke;
 }
 
@@ -52,15 +88,60 @@ header img {
     width: 100px;
 }
 
-main {
-
+.hero {
+    width: 100%;
+    height: 550px;
+    background: url('../images/hero-temp.jpg') no-repeat center center / cover;
+    background-position: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+main {
+    min-height: 200vh;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.motivation-container {
+    border: 1px solid red;
+    padding: 0 10px;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+
+.motivation-container h4 {
+    margin: 0;
+}
+
+.motivation-container p {
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+.motivation-container img {
+    width: 100px;
+    height: 100px;
+}
+
+
 
 footer {
     height: 100px;
     width: 100%;
+    margin-top: 100px;
     padding-top: 15px;
-    background-color: black;
+    background-color: #281C13;
     position: absolute;
     bottom: 0;
     border-top: 2px solid whitesmoke;
