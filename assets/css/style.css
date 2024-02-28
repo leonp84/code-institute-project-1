@@ -10,6 +10,7 @@ body {
     font-style: normal;
     text-align: center;
     color: white;
+    position: relative;
 }
 
 p {
@@ -40,8 +41,21 @@ header {
     padding: 0 15px;
     background-color: black;
 }
+
 header img {
     width: 100px;
+}
+
+main {
+    background-color: darkgray;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    bottom: 1rem;
 }
 
 #navbar {
