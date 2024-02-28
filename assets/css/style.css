@@ -9,8 +9,9 @@ body {
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    color: rgb(217, 217, 217);
+    color: black;
     position: relative;
+    background: whitesmoke;
 }
 
 p {
@@ -40,6 +41,11 @@ header {
     width: 100%;
     padding: 0 15px;
     background-color: black;
+    border-bottom: 2px solid whitesmoke;
+}
+
+header, footer {
+    color: rgb(217, 217, 217);
 }
 
 header img {
@@ -47,7 +53,7 @@ header img {
 }
 
 main {
-    background-color: darkgray;
+
 }
 
 footer {
@@ -56,7 +62,8 @@ footer {
     padding-top: 15px;
     background-color: black;
     position: absolute;
-    bottom: 1rem;
+    bottom: 0;
+    border-top: 2px solid whitesmoke;
 }
 
 footer p {
