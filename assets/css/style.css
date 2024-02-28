@@ -109,7 +109,6 @@ main {
 .motivation-container-outer {
     width: 100%;
     display: flex;
-
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -139,12 +138,11 @@ main {
 }
 
 .motivation-container img {
-    width: 100%;
+    width: 300px;
     height: 100px;
     padding-bottom: 10px;
 
 }
-
 
 #navbar {
     padding-right: 25px
