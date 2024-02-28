@@ -106,39 +106,44 @@ main {
     /* min-height: 200vh; */
 }
 
-.align-left {
-    text-align: left;
-}
+.motivation-container-outer {
+    width: 100%;
+    display: flex;
 
-.align-right {
-    text-align: right;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .motivation-container {
-    padding: 0 10px;
-    margin: 15px 0;
+    border: 1px solid red;
+    flex-grow: 1;
+    padding: 10px;
+    font-size: small;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    font-size: small;
 }
 
 .motivation-container h4 {
     margin: 0;
+    font-size: large;
 }
 
 .motivation-container p {
     margin: 10px;
     margin-bottom: 0;
+    width: 300px;
 }
 
 .motivation-container img {
-    width: 100px;
+    width: 100%;
     height: 100px;
+    padding-bottom: 10px;
+
 }
-
-
-
 
 
 #navbar {
