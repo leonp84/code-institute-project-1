@@ -115,7 +115,7 @@ main {
 }
 
 .motivation-container {
-    border: 1px solid red;
+    border: 1px solid #5A120A;
     flex-grow: 1;
     padding: 10px;
     font-size: small;
@@ -138,8 +138,7 @@ main {
 }
 
 .motivation-container img {
-    width: 300px;
-    height: 100px;
+    width: 350px;
     padding-bottom: 10px;
 
 }
