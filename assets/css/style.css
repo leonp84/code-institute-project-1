@@ -16,7 +16,6 @@ body {
     min-height: 100vh;
     padding: 0;
     margin: 0;
-    /* min-height: 3000px; */
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -30,6 +29,11 @@ p {
     line-height: 150%;
 }
 
+ul {
+    line-height: 200%;
+    list-style-type: none;
+    padding: 0 10px;
+}
 main {
     margin-top: 100px;
 }
@@ -99,7 +103,7 @@ header img {
 }
 
 main {
-    min-height: 200vh;
+    /* min-height: 200vh; */
 }
 
 .align-left {
@@ -111,7 +115,6 @@ main {
 }
 
 .motivation-container {
-    border: 1px solid red;
     padding: 0 10px;
     margin: 15px 0;
     display: flex;
@@ -136,20 +139,110 @@ main {
 
 
 
+
+
+#navbar {
+    padding-right: 25px
+}
+
+#navbar a, #navbar a:visited {
+    font-size: large;
+    color: whitesmoke;
+    padding: 0 10px;
+    text-decoration: none;
+}
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+
+.info-outer-box {
+    margin: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-outer-box i {
+    font-size: 60px;
+    padding: 8px 20px;
+}
+
+.info-inner-box p {
+    max-width: 165px;
+    padding: 25px;
+    margin: 0;
+}
+
+.info-inner-box {
+    border: 1px solid #5A120A;
+    border-collapse: collapse;
+    padding: 1px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.rosy-brown {
+    background-color: #B49489;
+}
+
+.bistre {
+    background-color: #281C13;
+}
+
+.blood-red {
+    background-color: #5A120A;
+}
+
+.brown-sugar {
+    background-color: #B97D58;
+}
+
+.van-dyke {
+    background-color: #37292A;
+}
+
+.text-white {
+    color: whitesmoke;
+}
+
+.sign-up-section {
+    margin: 60px 0;
+}
+
+a.sign-up-button {
+    padding: 30px;
+    background-color: #5A120A;
+    border-radius: 15px;
+}
+
+a.sign-up-button, a.sign-up-button:visited {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a.sign-up-button:hover {
+    background-color: whitesmoke;
+    color: #5A120A;
+    border: 10px solid #5A120A;
+}
+
 footer {
     height: 100px;
     width: 100%;
-    margin-top: 100px;
     padding-top: 15px;
     background-color: #281C13;
     position: absolute;
-    bottom: 0;
+    bottom: -12rem;
     border-top: 2px solid whitesmoke;
 }
 
 footer p {
     font-size: smaller;
     padding-top: 10px;
+
 }
 
 .social-icons {
@@ -163,18 +256,9 @@ footer p {
 }
 
 .social-icons a:hover {
-    color: brown;
+    color: #5A120A;
 }
 
 .social-icons i {
    font-size: 45px;
-}
-
-#navbar {
-    padding-right: 25px
-}
-
-#navbar a, #navbar a:visited {
-    color: white;
-    padding: 0 12px;
 }
