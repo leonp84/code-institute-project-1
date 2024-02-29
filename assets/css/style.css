@@ -1,16 +1,8 @@
+/* Google Fonts Import */
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
-/*
-COLORS
-
-Blood Red #5A120A
-Rosy Brown #B49489
-Bistre #281C13
-Brown Sugar #B97D58
-Van Dyke #37292A
-
-*/
+/* Main styles */
 
 body {
     min-height: 100vh;
@@ -20,7 +12,7 @@ body {
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    color: black;
+    color: #281C13;
     position: relative;
     background: whitesmoke;
 }
@@ -34,23 +26,38 @@ ul {
     list-style-type: none;
     padding: 0 10px;
 }
+
 main {
-    margin-top: 100px;
+    margin-top: 90px;
 }
 
-.logo {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 700;
-    font-size: 70px;
-    line-height: 100%;
-}
+/* Header & Footer Main Styles */
 
-.tagline {
-    height: auto;
+header {
+    position: fixed;
+    top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
     width: 100%;
-    background-color: rgba(0,0,0,.5);
-    padding: 10px 30px;
+    padding: 0 15px;
+    background-color: #281C13;
+    border-bottom: 2px solid #B97D58;
 }
+
+header,
+footer {
+    color: whitesmoke;
+}
+
+header img {
+    width: 90px;
+}
+
+/* Headings */
 
 .secondary-heading {
     font-family: "Josefin Sans", sans-serif;
@@ -65,46 +72,52 @@ main {
     font-weight: 700;
     font-size: 30px;
     line-height: 120%;
-    color: black;
+    color: #281C13;
     padding: 0 15px;
 }
 
-header {
-    position: fixed;
-    top: 0px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items:center;
-    height: 100px;
-    width: 100%;
-    padding: 0 15px;
-    background-color: #281C13;
-    border-bottom: 2px solid whitesmoke;
+.hidden {
+    display: none;
 }
 
-header, footer {
-    color: rgb(217, 217, 217);
+/* Navbar */
+
+#navbar {
+    padding-right: 25px
 }
 
-header img {
-    width: 100px;
+#navbar a,
+#navbar a:visited {
+    font-size: large;
+    color: whitesmoke;
+    padding: 0 10px;
+    text-decoration: none;
 }
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
 
 .hero {
     width: 100%;
-    height: 550px;
-    background: url('../images/hero-temp.jpg') no-repeat center center / cover;
-    background-position: 90%;
+    height: 500px;
+    background: url('../images/hero.webp') no-repeat center center / cover;
+    background-position: 95%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-main {
-    /* min-height: 200vh; */
+.tagline {
+    height: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 10px 30px;
 }
+
+/* index.html Middle Section - Motivation Blocks */
 
 .motivation-container-outer {
     width: 100%;
@@ -116,12 +129,12 @@ main {
 
 .motivation-container {
     border: 1px solid #5A120A;
-    flex-grow: 1;
     padding: 10px;
     font-size: small;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    flex-grow: 1;
     justify-content: center;
     align-items: center;
 }
@@ -143,20 +156,7 @@ main {
 
 }
 
-#navbar {
-    padding-right: 25px
-}
-
-#navbar a, #navbar a:visited {
-    font-size: large;
-    color: whitesmoke;
-    padding: 0 10px;
-    text-decoration: none;
-}
-#navbar a:hover {
-    text-decoration: underline;
-}
-
+/* index.html Lower Section - Info Blocks */
 
 .info-outer-box {
     margin: 15px 0;
@@ -186,6 +186,8 @@ main {
     flex-grow: 1;
 }
 
+/* Colours for Motivation Boxes*/
+
 .rosy-brown {
     background-color: #B49489;
 }
@@ -210,9 +212,14 @@ main {
     color: whitesmoke;
 }
 
+/* Sign up button on index.html */
+
 .sign-up-section {
     margin: 60px 0;
 }
+
+/* The CSS Code below ("a.sign-up-button") for turning an ahref into a button element (without using the <button> 
+syntax), was copied and adapted form code provided through the ChatGPT Large Language Model AI */
 
 a.sign-up-button {
     padding: 30px;
@@ -220,7 +227,8 @@ a.sign-up-button {
     border-radius: 15px;
 }
 
-a.sign-up-button, a.sign-up-button:visited {
+a.sign-up-button,
+a.sign-up-button:visited {
     color: whitesmoke;
     text-decoration: none;
 }
@@ -231,6 +239,8 @@ a.sign-up-button:hover {
     border: 10px solid #5A120A;
 }
 
+/* Footer */
+
 footer {
     height: 100px;
     width: 100%;
@@ -238,7 +248,7 @@ footer {
     background-color: #281C13;
     position: absolute;
     bottom: -12rem;
-    border-top: 2px solid whitesmoke;
+    border-top: 2px solid #B97D58;
 }
 
 footer p {
@@ -253,7 +263,8 @@ footer p {
     align-items: center;
 }
 
-.social-icons a, .social-icons a:visited {
+.social-icons a,
+.social-icons a:visited {
     color: rgb(217, 217, 217);
 }
 
@@ -262,5 +273,25 @@ footer p {
 }
 
 .social-icons i {
-   font-size: 45px;
+    font-size: 45px;
+}
+
+/* Media Query for Tablets and Larger */
+
+@media screen and (min-width:768px) {
+    .hero {
+        height: 350px;
+        position: relative;
+    }
+
+    .tagline {
+        width: 400px;
+        position: absolute;
+        left: 100px;
+    }
+
+    .tagline h2 {
+        font-size: 40px;
+        line-height: 150%;
+    }
 }
