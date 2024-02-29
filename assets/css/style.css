@@ -31,6 +31,17 @@ main {
     margin-top: 90px;
 }
 
+/* Form Elements Universal Styles */
+
+label {
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+select {
+    padding: 10px;
+}
+
 /* Header & Footer Main Styles */
 
 header {
@@ -247,7 +258,7 @@ a.sign-up-button:hover {
 /* Sign up Page Background Styling */
 
 #signup-page {
-    height: 82vh;
+    height: auto;
     background: #5A120A url('../images/sign-up-page-background.webp') no-repeat center center / cover;
     color: whitesmoke;
     display: flex;
@@ -259,6 +270,8 @@ a.sign-up-button:hover {
     border: 2px solid whitesmoke;
     background-color: rgba(0, 0, 0, .8);
     padding: 25px;
+    margin-top: 80px;
+    margin-bottom: 200px;
 }
 
 /* Sign up Form Styling */
@@ -266,10 +279,38 @@ a.sign-up-button:hover {
 .text-input {
     background-color: transparent;
     border: 1px solid whitesmoke;
+    color: whitesmoke;
+    padding: 5px;
+    font-size: larger;
+}
+
+.text-input:hover {
+    background-color: black;
+    border: 2px solid #B97D58;
 }
 
 .radio-button {
     margin: 10px 0;
+}
+
+.confirm-registration-button {
+    padding: 20px 60px;
+    font-size: large;
+    font-weight: 700;
+    background-color: #5A120A;
+    color: whitesmoke;
+    border-radius: 5px;
+    border: 0;
+}
+
+.confirm-registration-button:hover {
+    padding: 20px 60px;
+    font-size: large;
+    font-weight: 700;
+    background-color: whitesmoke;
+    color: #5A120A;
+    border-radius: 5px;
+    border: 0;
 }
 
 /* Footer */
@@ -327,5 +368,10 @@ footer p {
     .tagline h2 {
         font-size: 40px;
         line-height: 150%;
+    }
+
+    /* Slightly enlarge sign form - on signup page - for bigger screens */
+    #signup-form-container { 
+        padding: 25px 80px;
     }
 }

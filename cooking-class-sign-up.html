@@ -5,18 +5,18 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Keywords & Description -->
     <meta name="keywords"
         content="smoking ribs, saturday cooking class, linz austria, food enthusiasts, grill course, american cuisine, weekend activities, grillmaster">
     <meta name="description"
         content="One Saturday to change your culinary life forever: Learn to master the science and art of smoking the best pork ribs you have ever eaten. 6-8 Hour class, in Linz for beginners and more experienced grill masters.">
-    
+
     <!-- Favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    
+
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -42,22 +42,23 @@
                 <label for="signup-form" class="secondary-heading">Let's sign you up!</label>
                 <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
                     <br>
-                    <label for="first-name" >First Name</label>
+                    <label for="first-name">First Name</label>
                     <br>
                     <input type="text" class="text-input" name="fname" id="first-name" required>
                     <br><br>
-                    <label for="last-name" >Last Name</label>
+                    <label for="last-name">Last Name</label>
                     <br>
                     <input type="text" class="text-input" name="lname" id="last-name" required>
                     <br><br>
-                    <label for="email-adress" >Email Address</label>
+                    <label for="email-adress">Email Address</label>
                     <br>
-                    <input type="email" class="text-input" name="emailadr" id="email-adress" required>
+                    <input type="email" class="text-input" name="emailadr" id="email-address" required>
                     <br><br>
                     <fieldset>
                         <legend>Any specific dietary needs?</legend>
-                        <label for="dietary-needs0" >None</label>
-                        <input type="radio" class="radio-button" name="diet" value="none" id="dietary-needs0" required><br>
+                        <label for="dietary-needs0">None</label>
+                        <input type="radio" class="radio-button" name="diet" value="none" id="dietary-needs0"
+                            required><br>
                         <label for="dietary-needs1">Vegeterian</label>
                         <input type="radio" class="radio-button" name="diet" value="vegetarian" id="dietary-needs1"><br>
                         <label for="dietary-needs2">Vegan</label>
@@ -65,6 +66,19 @@
                         <label for="dietary-needs3">Other</label>
                         <input type="radio" class="radio-button" name="diet" value="other" id="dietary-needs3"><br>
                     </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Please pick a date below</legend>
+                        <select name="date">
+                        <option value="Apr6"><span class="select-box">April 6th 2024</span></option>
+                        <option value="Apr13">April 13th 2024</option>
+                        <option value="Apr20">April 20th 2024</option>
+                        <option value="Apr27">April 27th 2024</option>
+                        <option value="later">A later Saturday (May to August)</option>
+                        </select>
+                    </fieldset>
+                    <p><em>We'll get back to you<br>to confirm availability<br>within 2 working days.</em></p>
+                    <button type="submit" class="confirm-registration-button">Register</button>
                 </form>
             </div>
 
@@ -77,10 +91,8 @@
     <footer>
         <div class="social-icons">
             <a href="http://www.facebook.com" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i></a>
-            <a href="http://www.instagram.com" target="_blank" rel="noopener"><i
-                    class="fa-brands fa-instagram"></i></a>
-            <a href="http://www.linkedin.com" target="_blank" rel="noopener"><i
-                    class="fa-brands fa-linkedin"></i></a>
+            <a href="http://www.instagram.com" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+            <a href="http://www.linkedin.com" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
         </div>
         <p>© 2024 SocialStack Society | All Rights Reserved</p>
     </footer>
