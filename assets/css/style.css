@@ -34,6 +34,7 @@ main {
 /* Header & Footer Main Styles */
 
 header {
+    z-index: 99;
     position: fixed;
     top: 0px;
     display: flex;
@@ -215,7 +216,10 @@ header img {
 /* Sign up button on index.html */
 
 .sign-up-section {
-    margin: 60px 0;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 /* The CSS Code below ("a.sign-up-button") for turning an ahref into a button element (without using the <button> 
@@ -223,6 +227,7 @@ syntax), was copied and adapted form code provided through the ChatGPT Large Lan
 
 a.sign-up-button {
     padding: 30px;
+    margin-top: 10px;
     background-color: #5A120A;
     border-radius: 15px;
 }
@@ -239,15 +244,40 @@ a.sign-up-button:hover {
     border: 10px solid #5A120A;
 }
 
+/* Sign up Page Background Styling */
+
+#signup-page {
+    height: 82vh;
+    background: #5A120A url('../images/sign-up-page-background.webp') no-repeat center center / cover;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signup-form-container {
+    border: 2px solid whitesmoke;
+    background-color: rgba(0, 0, 0, .8);
+    padding: 25px;
+}
+
+/* Sign up Form Styling */
+
+.text-input {
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+}
+
 /* Footer */
 
 footer {
+    z-index: 99;
     height: 100px;
     width: 100%;
     padding-top: 15px;
     background-color: #281C13;
     position: absolute;
-    bottom: -12rem;
+    bottom: 0;
     border-top: 2px solid #B97D58;
 }
 
