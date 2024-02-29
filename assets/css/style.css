@@ -243,7 +243,6 @@ a.sign-up-button {
     background-color: #5A120A;
     border-radius: 15px;
     margin-left: 6px;
-    /* margin-right: 50px; */
 }
 
 a.sign-up-button,
@@ -321,6 +320,7 @@ a.sign-up-button:hover {
 #stories-page {
     height: auto;
     background: #5A120A url('../images/stories-page-background.webp') no-repeat center top / cover;
+    background-position: 60%;
     color: whitesmoke;
     display: flex;
 }
@@ -415,9 +415,10 @@ footer p {
         padding: 25px 80px;
     }
 
-    /* Add more space to the sign up button on stories page when screens are larger */
+    /* Change space around the sign up button on stories page when screens are larger */
 
     .extra-top-margin {
         margin-top: 50px;
+        height: 150px;
     }
 }
