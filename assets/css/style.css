@@ -241,6 +241,8 @@ a.sign-up-button {
     margin-top: 10px;
     background-color: #5A120A;
     border-radius: 15px;
+    margin-left: 6px;
+    margin-right: 50px;
 }
 
 a.sign-up-button,
@@ -313,6 +315,42 @@ a.sign-up-button:hover {
     border: 0;
 }
 
+/* Stories Page Background Styling */
+
+#stories-page {
+    height: auto;
+    background: #5A120A url('../images/stories-page-background.webp') no-repeat center top / cover;
+    color: whitesmoke;
+    display: flex;
+}
+
+/* Stories Page Container Styling */
+
+#stories-container-box {
+    width: 80%;
+    max-width: 600px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.stories-box {
+    margin: 10px 5px;
+    height: auto;
+    width: 220px;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+
+
+
 /* Footer */
 
 footer {
@@ -371,7 +409,14 @@ footer p {
     }
 
     /* Slightly enlarge sign form - on signup page - for bigger screens */
+    
     #signup-form-container { 
         padding: 25px 80px;
+    }
+
+    /* Add more space to the sign up button on stories page when screens are larger */
+
+    .extra-top-margin {
+        margin-top: 50px;
     }
 }
