@@ -14,7 +14,7 @@ body {
     text-align: center;
     color: #281C13;
     position: relative;
-    background: whitesmoke;
+    background-color: whitesmoke;
 }
 
 p {
@@ -120,6 +120,7 @@ header img {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 2px solid #281C13;
 }
 
 .tagline {
@@ -242,7 +243,7 @@ a.sign-up-button {
     background-color: #5A120A;
     border-radius: 15px;
     margin-left: 6px;
-    margin-right: 50px;
+    /* margin-right: 50px; */
 }
 
 a.sign-up-button,
