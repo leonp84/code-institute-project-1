@@ -424,7 +424,8 @@ footer p {
 
     /* Enlarge Navbar Links for larger screens */
 
-    #navbar a, #navbar a:visited {
+    #navbar a, 
+    #navbar a:visited {
     font-size: x-large;
     }
 

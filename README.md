@@ -165,7 +165,7 @@ GitHub Repository: https://github.com/leonp84/code-institute-project-1
 -	Favicon image and data Generated with [favicon.io](https://favicon.io/favicon-converter/)
 -	SmokeStack Society Logo: My own design using the Impact Font, an [online product image]( https://m.media-amazon.com/images/I/51RnO8pxLxL._AC_UF350,350_QL80_.jpg) (licence unknown) and Artistic Effects provided by Microsoft PowerPoint.
 -	Social Media icons (footer) and icons in the information boxes on index.html provided by [Font Awesome](http://www.fontawesome.com)
--	All images in `assets/images` were (except for `logo.png`) were purchased and adapted from [Adobe Stock]( https://stock.adobe.com/at/)
+-	All images in `assets/images` (except for `logo.png`) were purchased and adapted from [Adobe Stock]( https://stock.adobe.com/at/)
 
 
 
