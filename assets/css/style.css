@@ -31,6 +31,7 @@ ul {
 
 main {
     margin-top: 90px;
+    /* The "flex: 1 0 auto" code below was copied and repurposed from the love running project */
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
@@ -271,6 +272,7 @@ a.sign-up-button:hover {
 /* Sign up Page Background Styling */
 
 #signup-page {
+    /* The "flex: 1 0 auto" code below was copied and repurposed from the love running project */
     flex: 1 0 auto;
     background: #5A120A url('../images/sign-up-page-background.webp') no-repeat center center / cover;
     color: whitesmoke;
@@ -328,7 +330,8 @@ a.sign-up-button:hover {
 
 /* Stories Page Background Styling */
 
-#stories-page {
+.stories-page {
+    /* The "flex: 1 0 auto" code below was copied and repurposed from the love running project */
     flex: 1 0 auto;
     background: #5A120A url('../images/stories-page-background.webp') no-repeat center top / cover;
     background-position: 60%;
