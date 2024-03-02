@@ -5,6 +5,7 @@
 /* Main styles */
 
 body {
+    min-height: 100vh;
     padding: 0;
     margin: 0;
     font-family: "Roboto", sans-serif;
@@ -14,6 +15,8 @@ body {
     color: #281C13;
     position: relative;
     background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
 }
 
 p {
@@ -28,6 +31,10 @@ ul {
 
 main {
     margin-top: 90px;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+
 }
 
 /* Form Elements Universal Styles */
@@ -264,7 +271,7 @@ a.sign-up-button:hover {
 /* Sign up Page Background Styling */
 
 #signup-page {
-    height: auto;
+    flex: 1 0 auto;
     background: #5A120A url('../images/sign-up-page-background.webp') no-repeat center center / cover;
     color: whitesmoke;
     display: flex;
@@ -322,7 +329,7 @@ a.sign-up-button:hover {
 /* Stories Page Background Styling */
 
 #stories-page {
-    height: auto;
+    flex: 1 0 auto;
     background: #5A120A url('../images/stories-page-background.webp') no-repeat center top / cover;
     background-position: 60%;
     color: whitesmoke;
