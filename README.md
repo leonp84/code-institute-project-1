@@ -54,7 +54,7 @@ The site logo was designed by myself using the Impact Font, an online image (all
 
 #### Header and Navigation Bar
 
-The simple header uses a dark background, inline with the site colour palette, with the logo positioned left, and a simple text navigation bar, positioned oin the right.
+The simple header uses a dark background, inline with the site colour palette, with the logo positioned left, and a simple text navigation bar, positioned oi the right. The Header is fully responsive.
 
 ![alt text](assets/images/readme-images/readme-navbar.webp)
 
@@ -81,14 +81,14 @@ Unlike the motivational boxes, the information boxes (further down the main land
 
 #### Footer
 
-The footer contains the (fictional) business’ social media links that each open in a new browser window to prevent the prospective customer from navigating away from the site, before signing up. Copyright text is also included at the bottom of the footer.
+The footer contains the (fictional) business’ social media links that each open in a new browser window to prevent the prospective customer from navigating away from the site, before signing up. Copyright text is also included at the bottom of the footer. The Footer is fully responsive.
 
 ![alt text](assets/images/readme-images/readme-footer.webp)
 
 
 #### Sign Up Page
 
-The sign-up page is where the critical transaction will hopefully take place. This page uses a unique background to create a positive impression of the potential experiences of what a customer can expect when signing up. The sign-up form is not bloated but asks the prospective customer for minimal information. The sign-up form uses validation to prevent spam or false signups.
+The sign-up page is where the critical transaction will hopefully take place. This page uses a unique background to create a positive impression of the potential desirable experience a customer can expect when signing up. The sign-up form is not bloated but asks the prospective customer for minimal information. The form uses validation to prevent spam or false signups.
 
 ![alt text](assets/images/readme-images/readme-signup-page.webp)
 
@@ -112,9 +112,9 @@ The site was extensively tested among varies screen sizes of different heights/w
 
 - HTML
 No errors were returned when passing through the official W3C validator. The results for the individual HTML files are below.
-  - [index.html HTML Validator Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fleonp84.github.io%2Fcode-institute-project-1%2F)
-  - [cooking-class-sign-up.html HTML Validator Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fleonp84.github.io%2Fcode-institute-project-1%2Fcooking-class-sign-up.html)
-  - [cooking-class-testimonials.html HTML Validator Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fleonp84.github.io%2Fcode-institute-project-1%2Fcooking-class-testimonials.html)
+  - [index.html HTML Validator Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fleonp84.github.io%2Fcode-institute-project-1%2F)<br>
+  - [cooking-class-sign-up.html HTML Validator Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fleonp84.github.io%2Fcode-institute-project-1%2Fcooking-class-sign-up.html)<br>
+  - [cooking-class-testimonials.html HTML Validator Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fleonp84.github.io%2Fcode-institute-project-1%2Fcooking-class-testimonials.html)<br>
 
 - CSS
 No errors were returned when passing through the official W3C (Jigsaw) validator.
@@ -122,7 +122,7 @@ No errors were returned when passing through the official W3C (Jigsaw) validator
 
 ### Accessibility Testing
 
-The site was checked with [Web Accessibility Checker](https://websiteaccessibilitychecker.com/checker/index.php) abd two known problems were presented, which were ignored since they were deemed insignificant. These were:
+The site was checked with [Web Accessibility Checker](https://websiteaccessibilitychecker.com/checker/index.php) and two known problems were presented, which were ignored since they were deemed insignificant. These were:
 
 1.   i (italic) element used
 2.   Anchor contains no text
@@ -132,7 +132,7 @@ The site was checked with [Web Accessibility Checker](https://websiteaccessibili
 
 #### Fixed
 
-The major bug that took time to correct was that the `main` sections of each page was not responding properly when screen *height* was adjusted. I tried dealing with this through a variety of solutions, but ended up using the layout design of the [Love Running Walkthrough]( https://github.com/Code-Institute-Solutions/love-running-v3/blob/main/3.2-add-stylesheet-with-starter-styles/assets/css/style.css) Project from Code Institute, by using flexbox styling in the `body` section of the pages and adding the following code (copied from the above project) to the `main` sections of the page:
+The major bug that took the most time to correct was that the `main` sections of each page was not responding properly when screen *height* was adjusted. I tried dealing with this through a variety of solutions, but ended up using the layout design of the [Love Running Walkthrough]( https://github.com/Code-Institute-Solutions/love-running-v3/blob/main/3.2-add-stylesheet-with-starter-styles/assets/css/style.css) Project from Code Institute, by using flexbox styling in the `body` section of the pages and adding the following code (copied from the above project) to the `main` sections of the page:
 
 `flex: 1 o auto;`
 
