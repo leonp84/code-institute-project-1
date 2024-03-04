@@ -275,7 +275,7 @@ a.sign-up-button:visited {
 a.sign-up-button:hover {
     background-color: whitesmoke;
     color: #5A120A;
-    border:4px solid #5A120A;
+    border: 4px solid #5A120A;
 }
 
 /* Sign up Page Background Styling */
@@ -434,9 +434,9 @@ footer p {
 }
 
 @media screen and (min-width:768px) {
-    
+
     /* Change hero layout for larger screens */
-    
+
     .hero {
         height: 350px;
         position: relative;
@@ -455,10 +455,10 @@ footer p {
 
     /* Enlarge Navbar Links for larger screens */
 
-    #navbar a, 
+    #navbar a,
     #navbar a:visited {
-    font-size: 28px;
-    padding: 15px;
+        font-size: 28px;
+        padding: 15px;
     }
 
     #navbar {
@@ -468,13 +468,13 @@ footer p {
     /* Add more vertical space around the information boxes on index.html for when screens are larger */
 
     .info-outer-box {
-        margin-top:30px;
+        margin-top: 30px;
         margin-bottom: 20px;
     }
 
     /* Slightly enlarge signup form - on signup page - for bigger screens */
-    
-    #signup-form-container { 
+
+    #signup-form-container {
         padding: 25px 80px;
     }
 
@@ -486,7 +486,6 @@ footer p {
         height: 150px;
     }
 }
-
 
 @media screen and (min-width:1200px) {
 
