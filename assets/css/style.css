@@ -56,13 +56,13 @@ header {
     position: fixed;
     top: 0px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-left: 8px;
     height: 90px;
     width: 100%;
-    padding: 0 15px;
     background-color: #281C13;
     border-bottom: 2px solid #B97D58;
 }
@@ -107,15 +107,15 @@ header img {
 /* Navbar */
 
 #navbar {
-    padding-right: 35px
+    padding-right: 15px;
 }
 
 #navbar a,
 #navbar a:visited {
     font-size: large;
     color: whitesmoke;
-    padding: 0 10px;
     text-decoration: none;
+    padding: 0 5px;
 }
 
 #navbar a:hover {
@@ -159,7 +159,7 @@ header img {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    flex-grow: 1;
+    flex: 1 0 auto;
     justify-content: center;
     align-items: center;
 }
@@ -176,7 +176,7 @@ header img {
 }
 
 .motivation-container img {
-    width: 350px;
+    width: 300px;
     padding-bottom: 10px;
 
 }
@@ -250,11 +250,10 @@ header img {
 syntax), was copied and adapted form code provided through the ChatGPT Large Language Model AI */
 
 a.sign-up-button {
-    padding: 30px;
-    margin-top: 10px;
+    padding: 25px;
     background-color: #5A120A;
     border-radius: 15px;
-    margin-left: 10px;
+    margin-top: 15px;
 }
 
 a.sign-up-button,
@@ -284,7 +283,7 @@ a.sign-up-button:hover {
 #signup-form-container {
     border: 2px solid whitesmoke;
     background-color: rgba(0, 0, 0, .8);
-    padding: 25px;
+    padding: 17px;
     margin-top: 80px;
     margin-bottom: 200px;
 }
@@ -334,7 +333,7 @@ a.sign-up-button:hover {
     /* The "flex: 1 0 auto" code below was copied and repurposed from the love running project */
     flex: 1 0 auto;
     background: #5A120A url('../images/stories-page-background.webp') no-repeat center top / cover;
-    background-position: 60%;
+    background-position: 58%;
     color: whitesmoke;
     display: flex;
 }
@@ -344,7 +343,7 @@ a.sign-up-button:hover {
 #stories-container-box {
     width: 80%;
     max-width: 600px;
-    margin-left: 20px;
+    margin: 0 20px;
     margin-top: 30px;
     margin-bottom: 150px;
     display: flex;
@@ -400,7 +399,19 @@ footer p {
     font-size: 45px;
 }
 
-/* Media Query for Tablets and Larger */
+/* Media Query for cellphones and small screens */
+
+@media screen and (max-width: 767px) {
+
+    /* Centre Customer Testimonials on stories page when screen is smaller */
+    .stories-page {
+        justify-content: center;
+    }
+
+    #stories-container-box {
+        justify-content: center;
+    }
+}
 
 @media screen and (min-width:768px) {
     
@@ -444,8 +455,9 @@ footer p {
 
     /* Change space around the sign up button on stories page when screens are larger */
 
-    .extra-top-margin {
-        margin-top: 50px;
+    .extra-margin {
+        margin-top: 30px;
+        /* margin-left: 13px; */
         height: 150px;
     }
 }
