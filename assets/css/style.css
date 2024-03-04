@@ -154,7 +154,7 @@ header img {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .motivation-container {
@@ -465,11 +465,15 @@ footer p {
         padding-right: 35px;
     }
 
-    /* Add more vertical space around the information boxes on index.html for when screens are larger */
+    /* Add more vertical space around the various boxes on index.html for when screens are larger */
 
     .info-outer-box {
         margin-top: 30px;
         margin-bottom: 20px;
+    }
+
+    .motivation-container-outer {
+        margin-bottom: 30px;
     }
 
     /* Slightly enlarge signup form - on signup page - for bigger screens */
@@ -478,13 +482,6 @@ footer p {
         padding: 25px 80px;
     }
 
-    /* Change space around the sign up button on stories page when screens are larger */
-
-    .extra-margin {
-        margin-top: 30px;
-        /* margin-left: 13px; */
-        height: 150px;
-    }
 }
 
 @media screen and (min-width:1200px) {

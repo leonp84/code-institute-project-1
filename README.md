@@ -132,13 +132,11 @@ The site was checked with [Web Accessibility Checker](https://websiteaccessibili
 
 #### Fixed
 
-The major bug that took the most time to correct was that the `main` sections of each page was not responding properly when screen *height* was adjusted. I tried dealing with this through a variety of solutions, but ended up using the layout design of the [Love Running Walkthrough]( https://github.com/Code-Institute-Solutions/love-running-v3/blob/main/3.2-add-stylesheet-with-starter-styles/assets/css/style.css) Project from Code Institute, by using flexbox styling in the `body` section of the pages and adding the following code (copied from the above project) to the `main` sections of the page:
+- The major bug that took the most time to correct was that the `main` sections of each page was not responding properly when screen *height* was adjusted. I tried dealing with this through a variety of solutions, but ended up using the layout design of the [Love Running Walkthrough]( https://github.com/Code-Institute-Solutions/love-running-v3/blob/main/3.2-add-stylesheet-with-starter-styles/assets/css/style.css) Project from Code Institute, by using flexbox styling in the `body` section of the pages and adding the following code (copied from the above project) to the `main` sections of the page: `flex: 1 o auto;`
 
-`flex: 1 o auto;`
+- The alternative sign-up button on the testimonials page did not display correctly across all screen widths. Around 650px the flex box layout caused the button to jump horizontally which led to an awkward look. I tried fixing this by adjusting the padding and margins of the button, but the better solution was to place the button inside a separate container below the testimonials. This was done and the page layout is now maintained across all screen sizes.
 
-#### Unfixed
-
-On specific non-standard screen widths (around 650px) the testimonial page layout is not optimal since the sign-up button jumps to the right of the final testimonial, instead of staying below. This was deemed minor enough to be left unfixed since it does virtually no disservice to the page’s purpose.
+- The Sign-up form accepted empty characters (“ “) as a valid input and this was rectified by assigning a `pattern` attribute to the `input=”text”` element. The pattern and Regular Expression part of the attribute was adapted from [W3Schools.com](https://www.w3schools.com/tags/att_input_pattern.asp).
 
 ## Deployment
 
