@@ -236,14 +236,15 @@ header img {
     color: whitesmoke;
 }
 
-/* Parallax image on index.html */
+/* Parallax image on index.html - static below 1200px screen size */
 
 .parallax-image {
+    width: 100%;
     border: 1px solid #5A120A;
-    background: url("../images/landing-page-parallax-image.webp") no-repeat top / cover;
+    background: url("../images/landing-page-parallax-image.webp") no-repeat center / cover;
+    background-size: 200%;
+    background-position: 50% 70%;
     height: 250px;
-    overflow: hidden;
-    background-attachment: fixed;
 }
 
 /* Sign up button on index.html and cooking-class-sign-up.html */
@@ -483,5 +484,20 @@ footer p {
         margin-top: 30px;
         /* margin-left: 13px; */
         height: 150px;
+    }
+}
+
+
+@media screen and (min-width:1200px) {
+
+    /* Parallax image on index.html - active above 1200px screen size */
+
+    .parallax-image {
+        width: 100%;
+        border: 1px solid #5A120A;
+        background: url("../images/landing-page-parallax-image.webp") no-repeat center / cover;
+        height: 250px;
+        background-position: 50% 50%;
+        background-attachment: fixed;
     }
 }
