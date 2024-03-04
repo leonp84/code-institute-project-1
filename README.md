@@ -108,6 +108,21 @@ Adding photos of said customer next to his/her testimonial would further enhance
 
 The site was extensively tested using varies screen sizes of different heights/widths to check for layout breakage. All internal and external links were checked to be working.
 
+### Manual Testing
+
+<table>
+    <tr>
+        <th>Yes</th>
+        <th>No</th>
+        <th>Ok</th>
+    </tr>
+    <tr>
+        <td>Fine</td>
+        <td>fine2</td>
+        <td>fine3</td>
+    </tr>
+</table>
+
 ### Validator Testing
 
 - HTML
@@ -119,6 +134,13 @@ No errors were returned when passing through the official W3C validator. The res
 - CSS
 No errors were returned when passing through the official W3C (Jigsaw) validator.
   - [style.css Jigsaw Validator Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fleonp84.github.io%2Fcode-institute-project-1%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+### Lighthouse Testing
+
+Xx
+
+![Lighthouse Test Results](assets/images/readme-images/lighthouse-test.webp)
+
 
 ### Accessibility Testing
 
