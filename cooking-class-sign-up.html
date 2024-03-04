@@ -31,7 +31,7 @@
         <a href="index.html"><img src="assets/images/logo.png" alt="SmokeStack Logo"></a>
         <nav>
             <span id="navbar">
-                <a href="index.html">Home</a>|<a href="cooking-class-sign-up.html">Signup</a>|<a
+                <a href="index.html">Home</a>|<a href="cooking-class-sign-up.html" id="active">Signup</a>|<a
                     href="cooking-class-testimonials.html">Stories</a>
             </span>
         </nav>
@@ -48,11 +48,11 @@
                     <br>
                     <label for="first-name">First Name</label>
                     <br>
-                    <input type="text" class="text-input" name="fname" id="first-name" required>
+                    <input type="text" class="text-input" name="fname" id="first-name" pattern="[A-Za-z]{1,}" required>
                     <br><br>
                     <label for="last-name">Last Name</label>
                     <br>
-                    <input type="text" class="text-input" name="lname" id="last-name" required>
+                    <input type="text" class="text-input" name="lname" id="last-name" pattern="[A-Za-z]{1,}" required>
                     <br><br>
                     <label for="email-address">Email Address</label>
                     <br>

@@ -122,6 +122,10 @@ header img {
     text-decoration: underline;
 }
 
+#navbar a#active {
+    color: #c9af9f;
+}
+
 /* Hero Section */
 
 .hero {
@@ -368,6 +372,7 @@ a.alternative {
     background-color: rgba(0, 0, 0, .5);
     padding: 5px 15px;
     border-radius: 10px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.7);
 }
 
 #stories-page-sign-up-box {
