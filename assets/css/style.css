@@ -154,6 +154,7 @@ header img {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .motivation-container {
@@ -235,6 +236,16 @@ header img {
     color: whitesmoke;
 }
 
+/* Parallax image on index.html */
+
+.parallax-image {
+    border: 1px solid #5A120A;
+    background: url("../images/landing-page-parallax-image.webp") no-repeat top / cover;
+    height: 250px;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
 /* Sign up button on index.html and cooking-class-sign-up.html */
 
 .sign-up-section {
@@ -264,18 +275,6 @@ a.sign-up-button:hover {
     background-color: whitesmoke;
     color: #5A120A;
     border:4px solid #5A120A;
-}
-
-/* Extra styling for the alternative signup button on the stories pages */
-
-a.alternative {
-    padding: 25px 40px;
-    margin: 12px;
-    font-family: "Josefin Sans", sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 120%;
-    color: whitesmoke;
 }
 
 /* Sign up Page Background Styling */
@@ -468,7 +467,7 @@ footer p {
     /* Add more vertical space around the information boxes on index.html for when screens are larger */
 
     .info-outer-box {
-        margin-top:60px;
+        margin-top:30px;
         margin-bottom: 20px;
     }
 
