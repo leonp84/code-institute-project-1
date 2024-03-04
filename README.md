@@ -106,7 +106,7 @@ Adding photos of said customer next to his/her testimonial would further enhance
 
 ## Testing
 
-The site was extensively tested among varies screen sizes of different heights/widths to check for layout breakage. All internal and external links were checked to be working.
+The site was extensively tested using varies screen sizes of different heights/widths to check for layout breakage. All internal and external links were checked to be working.
 
 ### Validator Testing
 
@@ -162,7 +162,7 @@ GitHub Repository: https://github.com/leonp84/code-institute-project-1
 ### Media
 
 -	Favicon image from [deviantart.com]( https://www.deviantart.com/superawesomevectors/art/Barbecue-Grill-Flat-Vector-643400962) (Creative Commons Licence) 
--	Favicon image and data Generated with [favicon.io](https://favicon.io/favicon-converter/)
+-	Favicon icon and data Generated with [favicon.io](https://favicon.io/favicon-converter/)
 -	SmokeStack Society Logo: My own design using the Impact Font, an [online product image]( https://m.media-amazon.com/images/I/51RnO8pxLxL._AC_UF350,350_QL80_.jpg) (licence unknown) and Artistic Effects provided by Microsoft PowerPoint.
 -	Social Media icons (footer) and icons in the information boxes on index.html provided by [Font Awesome](http://www.fontawesome.com)
 -	All images in `assets/images` (except for `logo.png`) were purchased and adapted from [Adobe Stock]( https://stock.adobe.com/at/)
