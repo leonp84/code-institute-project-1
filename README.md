@@ -17,6 +17,7 @@ Welcome to the Readme file for the business website of **SmokeStack Society**, b
     - [Hero Section](#hero-section)
     - [Motivational Boxes](#motivational-boxes)
     - [Information Boxes](#information-boxes)
+    - [Parallax Image](#parallax-image)
     - [Footer](#footer)
     - [Sign Up Page](#sign-up-page)
     - [Customer Testimonials](#customer-testimonials)
@@ -82,7 +83,7 @@ The site logo was designed by myself using the Impact Font, an online image (all
 
 #### Header and Navigation Bar
 
-The simple header uses a dark background, inline with the site colour palette, with the logo positioned left, and a simple text navigation bar, positioned oi the right. The Header is fully responsive.
+The simple header uses a dark background, inline with the site colour palette, with the logo positioned left, and a simple text navigation bar, positioned on the right. The Header is fully responsive and the navbar uses active CSS classes to indicate to the user which page is currently visited.
 
 ![Site Header](assets/images/readme-images/readme-navbar.webp)
 
@@ -106,6 +107,11 @@ Unlike the motivational boxes, the information boxes (further down the main land
 
 ![Site Informational Boxes](assets/images/readme-images/readme-information-boxes.webp)
 
+#### Parallax Image
+
+The landing page contains a visually appealing parallax image which scrolls when the site is viewed on desktop (1200px+) screen sizes, but remains static on smaller screens, since parallax scrolling is currently not fully supported on most mobile browsers. The static background image was positioned to look good on both mobile and tablet screen sizes.
+
+![Site Parallax image on landing page](assets/images/readme-images/parallax-image.webp)
 
 #### Footer
 
