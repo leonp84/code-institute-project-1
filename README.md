@@ -6,6 +6,10 @@ Welcome to the Readme file for the business website of **SmokeStack Society**, b
 
 - [Overview](#overview)
 - [Screenshots](#screenshots)
+- [User Experience](#user-experience)
+  - [Site Concept](#site-concept)
+  - [Wireframing](#wireframing)
+  - [Site Design](#site-design)
 - [Features](#features)
   - [Existing Features](#existing-features)
     - [Site Logo](#site-logo)
@@ -18,7 +22,9 @@ Welcome to the Readme file for the business website of **SmokeStack Society**, b
     - [Customer Testimonials](#customer-testimonials)
   - [Future Ideas](#future-ideas)
 - [Testing](#testing)
+  - [Manual Testing](#manual-testing)
   - [Validator Testing](#validator-testing)
+  - [Lighthouse Testing](#lighthouse-testing)
   - [Accessibility Testing](#accessibility-testing)
   - [Bugs](#bugs)
       - [Fixed](#fixed)
@@ -38,7 +44,29 @@ SmokeStack Society is the business website of a (fictional) for-profit cooking c
 
 The site is responsive across all screen sizes, the primary break point for layout adjustment is 768px. The site looks most visually appealing in cell phone and tablet (portrait) format.
 
-![alt text](assets/images/readme-images/website-mockups.webp)
+![Site Screenshot showing responsiveness across devices](assets/images/readme-images/website-mockups.webp)
+
+## User Experience
+
+As a for-profit business, I wanted the website of SmokeStack Society to serve the business by bringing potential customers in contact with our service. The User experience had to therefore fulfil the following goals:
+
+1. Provide a visually appealing experience that grabbed visitor attention and produced a low bounce rate.
+2. Use content and layout that serve the purpose of piquing visitor interest in the services being offered.
+3. Provide clear and unambiguous information about services being offered.
+4. Provide answers to the most immediate questions visitors might have about services being offered.
+5. Provide a distraction free experience that funnelled visitors (potential customers) to a sign up form.
+
+### Wireframing
+
+After the site concept was finalised, time was taken to create a wireframe mock-up of the landing page. The initial design is shown below though the layout and elements of the current index.html page has slightly evolved. The wireframe, for example, does not show the parallax image on the landing page since this was added later to improve user experience. Wireframing was done with [Balsamiq](#https://balsamiq.com/wireframes/?gad_source=1&gclid=CjwKCAiAopuvBhBCEiwAm8jaMS18xg9vtJs9hPe2MOlonaIsOoF8u--rd8OBNRm1zaseLO7eraM-6BoCNS8QAvD_BwE) software.
+
+![Site Wireframe showing initial design concept of index.html](assets/images/readme-images/landing-page-wireframe.webp)
+
+### Site Design
+
+To aid in providing an unambiguous and distraction free experience for visitors, a colour palette was used to keep the design consistent across the different pages on the site. The Colour palette is shown below, and the exact layout of the individual pages are then presented in the following sections.
+
+![Site colour palette](assets/images/readme-images/colour-palette.webp)
 
 ## Features
 
@@ -50,54 +78,54 @@ The site consists of a main landing page and two additional pages.
 
 The site logo was designed by myself using the Impact Font, an online image (all mentioned images are credited [below](#credits)) and artistic effects included in Microsoft PowerPoint.
 
-![alt text](assets/images/readme-images/readme-logo.webp)
+![Site Logo](assets/images/readme-images/readme-logo.webp)
 
 #### Header and Navigation Bar
 
 The simple header uses a dark background, inline with the site colour palette, with the logo positioned left, and a simple text navigation bar, positioned oi the right. The Header is fully responsive.
 
-![alt text](assets/images/readme-images/readme-navbar.webp)
+![Site Header](assets/images/readme-images/readme-navbar.webp)
 
 #### Hero Section
 
 The Main (Hero) image forms the basis for the site’s colour palette, and the image is employed to be as salient for prospective customers as possible. The wording in the tagline serves a similar purpose.
 
-![alt text](assets/images/readme-images/readme-hero.webp)
+![Site Hero Image](assets/images/readme-images/readme-hero.webp)
 
 
 #### Motivational Boxes
 
 The four motivational boxes contain images and text to again motivate customers to take part in the cooking class. The various benefits of class participation are outlined clearly. 
 
-![alt text](assets/images/readme-images/readme-motivation-boxes.webp)
+![Site Motivational Boxes](assets/images/readme-images/readme-motivation-boxes.webp)
 
 
 #### Information Boxes
 
-Unlike the motivational boxes, the information boxes (further down the main landing page) contain only snippets of information about the class and signup procedure. This was done to address the most immediate objections/questions that customers might have to signing up.
+Unlike the motivational boxes, the information boxes (further down the main landing page) contain only snippets of information about the class and sign up procedure. This was done to address the most immediate objections/questions that customers might have to signing up.
 
-![alt text](assets/images/readme-images/readme-information-boxes.webp)
+![Site Informational Boxes](assets/images/readme-images/readme-information-boxes.webp)
 
 
 #### Footer
 
 The footer contains the (fictional) business’ social media links that each open in a new browser window to prevent the prospective customer from navigating away from the site, before signing up. Copyright text is also included at the bottom of the footer. The Footer is fully responsive.
 
-![alt text](assets/images/readme-images/readme-footer.webp)
+![Site Footer](assets/images/readme-images/readme-footer.webp)
 
 
 #### Sign Up Page
 
 The sign-up page is where the critical transaction will hopefully take place. This page uses a unique background to create a positive impression of the potential desirable experience a customer can expect when signing up. The sign-up form is not bloated but asks the prospective customer for minimal information. The form uses validation to prevent spam or false signups.
 
-![alt text](assets/images/readme-images/readme-signup-page.webp)
+![Screenshot of Sign up Page](assets/images/readme-images/readme-signup-page.webp)
 
 
 #### Customer Testimonials
 
 Testimonials of past (fictional) customers are presented on a separate page to further encourage visitors to sign up. An additional sign-up button is presented at the bottom of the page, after the testimonials have been read.
 
-![alt text](assets/images/readme-images/readme-stories-page.webp)
+![Screenshot of Stories Page](assets/images/readme-images/readme-stories-page.webp)
 
 
 ### Future Ideas
@@ -106,22 +134,39 @@ Adding photos of said customer next to his/her testimonial would further enhance
 
 ## Testing
 
-The site was extensively tested using varies screen sizes of different heights/widths to check for layout breakage. All internal and external links were checked to be working.
+The site was extensively tested using varies screen sizes of different heights/widths to check for layout breakage. All internal and external links were checked to be working. Details below:
 
 ### Manual Testing
 
-<table>
-    <tr>
-        <th>Yes</th>
-        <th>No</th>
-        <th>Ok</th>
-    </tr>
-    <tr>
-        <td>Fine</td>
-        <td>fine2</td>
-        <td>fine3</td>
-    </tr>
-</table>
+**- Testing Links and Navigation**
+| Test | Result |
+|--|--|
+|Navigation links on all three pages lead to correct locations |Pass|
+|Site logo in header leads to Home Page in all locations where present |Pass|
+|Sign up Button on both pages lead to the sign up page |Pass|
+|Footer social links all lead to their respective social media sites (new tab) |Pass|
+
+<hr>
+
+**- Testing Sign up Form**
+| Test | Result |
+|--|--|
+|Sign up form requires First Name field with correct input type |Pass|
+|Sign up form requires Last Name field with correct input type |Pass|
+|Sign up form requires Email field with correct input type |Pass|
+|Rest of sign up form Validates |Pass|
+|Sign up form submits information to correct location |Pass|
+
+<hr>
+
+**- Testing for responsiveness**
+| Test | Result |
+|--|--|
+|Landing, Sign up & Testimonial pages displays correctly on screens between 320px & 479px |Pass|
+|Landing, Sign up & Testimonial pages displays correctly on screens between 480px & 767px |Pass|
+|Landing, Sign up & Testimonial pages displays correctly on screens between 768px & 1199px |Pass|
+|Landing, Sign up & Testimonial pages displays correctly on screens 1200px and larger |Pass|
+
 
 ### Validator Testing
 
@@ -137,7 +182,7 @@ No errors were returned when passing through the official W3C (Jigsaw) validator
 
 ### Lighthouse Testing
 
-Xx
+The site was tested with Google Lighthouse using Chrome Developer Tools and the results for index.html are shown below. *Performance* was rated slightly lower than ideal, due to large image sizes. Since all images had already been Web optimised using [TinyPNG](https://tinypng.com/) This was left as is and is considered adequate. Aside from that the page scored perfect amongst the other categories.
 
 ![Lighthouse Test Results](assets/images/readme-images/lighthouse-test.webp)
 
@@ -162,7 +207,15 @@ The site was checked with [Web Accessibility Checker](https://websiteaccessibili
 
 ## Deployment
 
-The site was deployed using GitHub pages and a live version is available for viewing. The GitHub repository contains a history of the commits made during development.
+The site was deployed using GitHub pages and a live version is available for viewing. The GitHub repository contains a history of the commits made during development. To deploy the project I followed the below steps, starting from the project’s [main repository](#https://github.com/leonp84/code-institute-project-1):
+
+1.	I went to **Settings** on the navigation menu, at the top of the repository page.
+2.	I then selected **Pages** menu on the left-hand side bar.
+3.	In the first dropdown menu labelled **Source** I selected the branch called **Main** from the available options.
+4.	In the next dropdown I left **/ root** as the default option.
+5.	I clicked on Save.
+
+After about 60 seconds after refreshing the GitHub Repository the site was shown (in the right-hand side bar) as deployed. Links are below.
 
 ### Links
 
