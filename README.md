@@ -54,11 +54,11 @@ As a for-profit business, I wanted the website of SmokeStack Society to serve th
 2. Use content and layout that serve the purpose of piquing visitor interest in the services being offered.
 3. Provide clear and unambiguous information about services being offered.
 4. Provide answers to the most immediate questions visitors might have about services being offered.
-5. Provide a distraction free experience that funnelled visitors (potential customers) to a sign up form.
+5. Provide a distraction free experience that funnelled visitors (potential customers) to a [sign up form](#sign-up-page).
 
 ### Wireframing
 
-After the site concept was finalised, time was taken to create a wireframe mock-up of the landing page. The initial design is shown below though the layout and elements of the current index.html page has slightly evolved. The wireframe, for example, does not show the parallax image on the landing page since this was added later to improve user experience. Wireframing was done with [Balsamiq](#https://balsamiq.com/wireframes/?gad_source=1&gclid=CjwKCAiAopuvBhBCEiwAm8jaMS18xg9vtJs9hPe2MOlonaIsOoF8u--rd8OBNRm1zaseLO7eraM-6BoCNS8QAvD_BwE) software.
+After the site concept was finalised, time was taken to create a wireframe mock-up of the landing page. The initial design is shown below though the layout and elements of the current index.html page has slightly evolved. The wireframe, for example, does not show the parallax image on the landing page since this was added later to improve user experience. Wireframing was done with [Balsamiq](#https://balsamiq.com/) software.
 
 ![Site Wireframe showing initial design concept of index.html](assets/images/readme-images/landing-page-wireframe.webp)
 
@@ -230,6 +230,7 @@ GitHub Repository: https://github.com/leonp84/code-institute-project-1
 -	General design inspiration from [Jim & Nicks Community BBQ]( https://www.jimnnicks.com/baby-back-ribs/) restaurant site.
 -	The following fonts were provided by [Google Fonts]( https://fonts.google.com): "Bebas Neue", "Josefin Sans", "Roboto"
 -	Website Colour Palette generated with [coolors.co](http://www.coolors.co)
+- Sign up Form Validation HTML and help with the parallex image (Background Attachment) from W3Schools [here](#https://www.w3schools.com/tags/att_input_pattern.asp) and [here](#https://www.w3schools.com/howto/howto_css_parallax.asp).
 -	Readme file layout and table of contents inspired (and partially adapted) from a project I completed on [FrontendMentor](https://github.com/leonp84/fm3-recipe-page/blob/main/README.md?plain=1)
 
 ### Media
