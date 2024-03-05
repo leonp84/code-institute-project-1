@@ -7,7 +7,6 @@ Welcome to the Readme file for the business website of **SmokeStack Society**, b
 - [Overview](#overview)
 - [Screenshots](#screenshots)
 - [User Experience](#user-experience)
-  - [Site Concept](#site-concept)
   - [Wireframing](#wireframing)
   - [Site Design](#site-design)
 - [Features](#features)
@@ -28,8 +27,6 @@ Welcome to the Readme file for the business website of **SmokeStack Society**, b
   - [Lighthouse Testing](#lighthouse-testing)
   - [Accessibility Testing](#accessibility-testing)
   - [Bugs](#bugs)
-      - [Fixed](#fixed)
-      - [Unfixed](#unfixed)
 - [Deployment](#deployment)
   - [Links](#links)
 - [Credits](#credits)
@@ -202,8 +199,6 @@ The site was checked with [Web Accessibility Checker](https://websiteaccessibili
 
 
 ### Bugs
-
-#### Fixed
 
 - The major bug that took the most time to correct was that the `main` sections of each page was not responding properly when screen *height* was adjusted. I tried dealing with this through a variety of solutions, but ended up using the layout design of the [Love Running Walkthrough]( https://github.com/Code-Institute-Solutions/love-running-v3/blob/main/3.2-add-stylesheet-with-starter-styles/assets/css/style.css) Project from Code Institute, by using flexbox styling in the `body` section of the pages and adding the following code (copied from the above project) to the `main` sections of the page: `flex: 1 o auto;`
 
