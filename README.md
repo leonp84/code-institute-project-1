@@ -56,6 +56,8 @@ The site is responsive across all screen sizes, the primary break point for layo
 
 ### User Stories
 
+The sentences below outline possible motivations of *potential users* visiting the site. Business goals of myself as business/site owner is also added. These formed the visionary backdrop for the site's development.
+
 #### User
 
 > Potential User: *A beginner barbecue enthusiast** / "I want to find comprehensive tutorials to improve my cooking skills."
