@@ -17,6 +17,7 @@ Welcome to the Readme file for the business website of **SmokeStack Society**, b
     - [Motivational Boxes](#motivational-boxes)
     - [Information Boxes](#information-boxes)
     - [Parallax Image](#parallax-image)
+    - [Customer Testimonials Link](#customer-testimonials-link)
     - [Footer](#footer)
     - [Sign Up Page](#sign-up-page)
     - [Customer Testimonials](#customer-testimonials)
@@ -109,6 +110,12 @@ Unlike the motivational boxes, the information boxes (further down the main land
 The landing page contains a visually appealing parallax image which scrolls when the site is viewed on desktop (1200px+) screen sizes, but remains static on smaller screens, since parallax scrolling is currently not fully supported on most mobile browsers. The static background image was positioned to look good on both mobile and tablet screen sizes.
 
 ![Site Parallax image on landing page](assets/images/readme-images/parallax-image.webp)
+
+#### Customer Testimonials Link
+
+The landing page also contains a link to the stories page, where customer testimonials can be found of those who previously attended the cooking class. The responsive section has a button with hover effect and a semi-transparent background to create visual appeal.
+
+![Customer Testimonials Link on landing page](assets/images/readme-images/readme-stories-page-link.webp)
 
 #### Footer
 
