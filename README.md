@@ -2,12 +2,23 @@
 
 Welcome to the Readme file for the business website of **SmokeStack Society**, based in Linz, Austria.
 
+![Site Screenshot showing responsiveness across devices](assets/images/readme-images/website-mockups.webp)
+
+**Link to Live Site: https://leonp84.github.io/code-institute-project-1/**
+<br>
+<br>
+
 ## Table of Contents
 
 - [Overview](#overview)
-- [Screenshots](#screenshots)
-- [User Experience](#user-experience)
+- [UX](#ux)
+  - [User Stories](#user-stories)
+    - [User](#user)
+    - [Business Owner](#business-owner)
+  - [Site Concept](#site-concept)
   - [Wireframing](#wireframing)
+    - [Desktop](#desktop)
+    - [Mobile](#mobile)
   - [Site Design](#site-design)
 - [Features](#features)
   - [Existing Features](#existing-features)
@@ -39,13 +50,39 @@ Welcome to the Readme file for the business website of **SmokeStack Society**, b
 
 SmokeStack Society is the business website of a (fictional) for-profit cooking class hosted in Linz, Austria. The site is designed with prospective customers in mind, with the primary purpose of convincing visitors to **sign up for a cooking class**. The entire site funnels visitors towards the sign-up page and the various layouts were designed, and content written, to motivate visitors to sign up.
 
-## Screenshots
-
 The site is responsive across all screen sizes, the primary break point for layout adjustment is 768px. The site looks most visually appealing in cell phone and tablet (portrait) format.
 
-![Site Screenshot showing responsiveness across devices](assets/images/readme-images/website-mockups.webp)
+## UX
 
-## User Experience
+### User Stories
+
+#### User
+
+> Potential User: *A beginner barbecue enthusiast** / "I want to find comprehensive tutorials to improve my cooking skills."
+
+> Potential User: *An experienced grillmaster* / "I want to discover advanced techniques and recipes to elevate my barbecue game."
+
+> Potential User: *Foodie* / "I want to explore options for attending a Saturday cooking class."
+
+> Potential User: *Tourist* / "I am looking for a unique weekend activity and would like to meet new people."
+
+> Potential User: *Gift-giver* / "I'm interested in purchasing a unique gift voucher for a friend."
+
+> Potential User: *Barbecue enthusiast with dietary restrictions* / "I'm looking for healthy cooking methods without oil."
+
+#### Business Owner
+
+> As the Business owner, I want to showcase my business to prospective customers.
+
+> As the Business owner, I want to use this website to attract more business from customers in and around Linz, Austria.
+
+> As the Business owner, I want to create interest and provide customers a way to get more information.
+
+> As the Business owner, I want to make it as frictionless as possible for customers to sign up for my offerings.
+
+> As the Business owner, I want to provide detailed information to help customers make informed decisions about my offerings.
+
+### Site Concept
 
 As a for-profit business, I wanted the website of SmokeStack Society to serve the business by bringing potential customers in contact with our service. The User experience had to therefore fulfil the following goals:
 
@@ -59,7 +96,13 @@ As a for-profit business, I wanted the website of SmokeStack Society to serve th
 
 After the site concept was finalised, time was taken to create a wireframe mock-up of the landing page. The initial design is shown below though the layout and elements of the current index.html page has slightly evolved. The wireframe, for example, does not show the parallax image on the landing page since this was added later to improve user experience. Wireframing was done with [Balsamiq](https://balsamiq.com/) software.
 
-![Site Wireframe showing initial design concept of index.html](assets/images/readme-images/landing-page-wireframe.webp)
+#### Desktop
+
+![Site Wireframe (Desktop) showing initial design concept of index.html](assets/images/readme-images/readme-wireframe-desktop.webp)
+
+#### Mobile
+
+![Site Wireframe (Mobile) showing initial design concept of index.html](assets/images/readme-images/landing-page-wireframe.webp)
 
 ### Site Design
 
@@ -149,34 +192,42 @@ The site was extensively tested using varies screen sizes of different heights/w
 ### Manual Testing
 
 **- Testing Links and Navigation**
-| Test | Result |
-|--|--|
-|Navigation links on all three pages lead to correct locations |Pass|
-|Site logo in header leads to Home Page in all locations where present |Pass|
-|Sign up Button on both pages lead to the sign up page |Pass|
-|Footer social links all lead to their respective social media sites (new tab) |Pass|
+| What will be Tested? | Expected Outcome | Test Procedure | Result |
+|--|--|--|--|
+|Navigation links on all three pages|The Links lead to the correct pages|Click on each link on every page|<span style="color: green; font-weight:bold">Pass</span>|
+|Site logo in header|The Logo leads to the Home Page in all locations where present|Click on every instance of the logo|<span style="color: green; font-weight:bold">Pass</span>|
+|Sign up Button on both pages, where present|The Buttons lead to the sign up page|Click on every instance of the signup button|<span style="color: green; font-weight:bold">Pass</span>|
+|Footer social links|The Links all lead to their respective social media sites (new tab)|Click on all footer links on every page|<span style="color: green; font-weight:bold">Pass</span>|
 
 <hr>
 
 **- Testing Sign up Form**
-| Test | Result |
-|--|--|
-|Sign up form requires First Name field with correct input type |Pass|
-|Sign up form requires Last Name field with correct input type |Pass|
-|Sign up form requires Email field with correct input type |Pass|
-|Rest of sign up form Validates |Pass|
-|Sign up form submits information to correct location |Pass|
+| What will be Tested? | Expected Outcome | Test Procedure | Result |
+|--|--|--|--|
+|First Name field| Only accepts correct input type | Enter Erroneous Data (Blank, Numbers, Single Letter, Special Character) | <span style="color: green; font-weight:bold">Pass</span> |
+|Last Name field |Only accepts correct input type | Enter Erroneous Data (Blank, Numbers, Single Letter, Special Character)  | <span style="color: green; font-weight:bold">Pass</span> |
+|Email field | Only accepts correct input type |Enter Erroneous Data (Blank, Numbers, Single Letter, No @ sign) | <span style="color: green; font-weight:bold">Pass</span> |
+|Submit Button | Sign up form submits information to correct location | Submit Dummy Form | <span style="color: green; font-weight:bold">Pass</span> |
 
 <hr>
 
 **- Testing for responsiveness**
 | Test | Result |
 |--|--|
-|Landing, Sign up & Testimonial pages displays correctly on screens between 320px & 479px |Pass|
-|Landing, Sign up & Testimonial pages displays correctly on screens between 480px & 767px |Pass|
-|Landing, Sign up & Testimonial pages displays correctly on screens between 768px & 1199px |Pass|
-|Landing, Sign up & Testimonial pages displays correctly on screens 1200px and larger |Pass|
+|Landing, Sign up & Testimonial pages displays correctly on screens between 320px & 479px |<span style="color: green; font-weight:bold">Pass</span>|
+|Landing, Sign up & Testimonial pages displays correctly on screens between 480px & 767px |<span style="color: green; font-weight:bold">Pass</span>|
+|Landing, Sign up & Testimonial pages displays correctly on screens between 768px & 1199px |<span style="color: green; font-weight:bold">Pass</span>|
+|Landing, Sign up & Testimonial pages displays correctly on screens 1200px and larger |<span style="color: green; font-weight:bold">Pass</span>|
 
+<hr>
+
+**- Cross Browser Testing**
+| Browser | Resolution | Result |
+|--|--|--|
+|Chrome|1200px|<span style="color: green; font-weight:bold">Very Good</span>|
+|Edge|1200px|<span style="color: green; font-weight:bold">Very Good</span>|
+|Firefox|1200px|<span style="color: green; font-weight:bold">Very Good</span>|
+|Safari|768px|<span style="color: green; font-weight:bold">Very Good</span>|
 
 ### Validator Testing
 
