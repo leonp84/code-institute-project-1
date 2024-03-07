@@ -57,7 +57,7 @@ As a for-profit business, I wanted the website of SmokeStack Society to serve th
 
 ### Wireframing
 
-After the site concept was finalised, time was taken to create a wireframe mock-up of the landing page. The initial design is shown below though the layout and elements of the current index.html page has slightly evolved. The wireframe, for example, does not show the parallax image on the landing page since this was added later to improve user experience. Wireframing was done with [Balsamiq](#https://balsamiq.com/) software.
+After the site concept was finalised, time was taken to create a wireframe mock-up of the landing page. The initial design is shown below though the layout and elements of the current index.html page has slightly evolved. The wireframe, for example, does not show the parallax image on the landing page since this was added later to improve user experience. Wireframing was done with [Balsamiq](https://balsamiq.com/) software.
 
 ![Site Wireframe showing initial design concept of index.html](assets/images/readme-images/landing-page-wireframe.webp)
 
@@ -207,7 +207,7 @@ The site was checked with [Web Accessibility Checker](https://websiteaccessibili
 
 ### Bugs
 
-- The major bug that took the most time to correct was that the `main` sections of each page was not responding properly when screen *height* was adjusted. I tried dealing with this through a variety of solutions, but ended up using the layout design of the [Love Running Walkthrough]( https://github.com/Code-Institute-Solutions/love-running-v3/blob/main/3.2-add-stylesheet-with-starter-styles/assets/css/style.css) Project from Code Institute, by using flexbox styling in the `body` section of the pages and adding the following code (copied from the above project) to the `main` sections of the page: `flex: 1 o auto;`
+- The major bug that took the most time to correct was that the `main` sections of each page was not responding properly when screen *height* was adjusted. I tried dealing with this through a variety of solutions, but ended up using the layout design of the [Love Running Walkthrough](https://github.com/Code-Institute-Solutions/love-running-v3/blob/main/3.2-add-stylesheet-with-starter-styles/assets/css/style.css) Project from Code Institute, by using flexbox styling in the `body` section of the pages and adding the following code (copied from the above project) to the `main` sections of the page: `flex: 1 o auto;`
 
 - The alternative sign-up button on the testimonials page did not display correctly across all screen widths. Around 650px the flex box layout caused the button to jump horizontally which led to an awkward look. I tried fixing this by adjusting the padding and margins of the button, but the better solution was to place the button inside a separate container below the testimonials. This was done and the page layout is now maintained across all screen sizes.
 
@@ -215,7 +215,7 @@ The site was checked with [Web Accessibility Checker](https://websiteaccessibili
 
 ## Deployment
 
-The site was deployed using GitHub pages and a live version is available for viewing. The GitHub repository contains a history of the commits made during development. To deploy the project I followed the below steps, starting from the project’s [main repository](#https://github.com/leonp84/code-institute-project-1):
+The site was deployed using GitHub pages and a live version is available for viewing. The GitHub repository contains a history of the commits made during development. To deploy the project I followed the below steps, starting from the project’s [main repository](https://github.com/leonp84/code-institute-project-1):
 
 1.	I went to **Settings** on the navigation menu, at the top of the repository page.
 2.	I then selected **Pages** menu on the left-hand side bar.
@@ -237,17 +237,17 @@ GitHub Repository: https://github.com/leonp84/code-institute-project-1
 -	General design and content inspiration from the [Love Running Walkthrough Project](https://github.com/leonp84/love-running) from Code Institute.
 -	General design inspiration from [Jim & Nicks Community BBQ]( https://www.jimnnicks.com/baby-back-ribs/) restaurant site.
 -	The following fonts were provided by [Google Fonts]( https://fonts.google.com): "Bebas Neue", "Josefin Sans", "Roboto"
--	Website Colour Palette generated with [coolors.co](http://www.coolors.co)
-- Sign up Form Validation HTML and help with the parallex image (Background Attachment) from W3Schools [here](#https://www.w3schools.com/tags/att_input_pattern.asp) and [here](#https://www.w3schools.com/howto/howto_css_parallax.asp).
+-	Website Colour Palette generated with [coolors.co](https://www.coolors.co)
+- Sign up Form Validation HTML and help with the parallex image (Background Attachment) from W3Schools [here](https://www.w3schools.com/tags/att_input_pattern.asp) and [here](https://www.w3schools.com/howto/howto_css_parallax.asp).
 -	Readme file layout and table of contents inspired (and partially adapted) from a project I completed on [FrontendMentor](https://github.com/leonp84/fm3-recipe-page/blob/main/README.md?plain=1)
 
 ### Media
 
--	Favicon image from [deviantart.com]( https://www.deviantart.com/superawesomevectors/art/Barbecue-Grill-Flat-Vector-643400962) (Creative Commons Licence) 
+-	Favicon image from [deviantart.com](https://www.deviantart.com/superawesomevectors/art/Barbecue-Grill-Flat-Vector-643400962) (Creative Commons Licence) 
 -	Favicon icon and data Generated with [favicon.io](https://favicon.io/favicon-converter/)
--	SmokeStack Society Logo: My own design using the Impact Font, an [online product image]( https://m.media-amazon.com/images/I/51RnO8pxLxL._AC_UF350,350_QL80_.jpg) (licence unknown) and Artistic Effects provided by Microsoft PowerPoint.
--	Social Media icons (footer) and icons in the information boxes on index.html provided by [Font Awesome](http://www.fontawesome.com)
--	All images in `assets/images` (except for `logo.png`) were purchased and adapted from [Adobe Stock]( https://stock.adobe.com/at/)
+-	SmokeStack Society Logo: My own design using the Impact Font, an [online product image](https://m.media-amazon.com/images/I/51RnO8pxLxL._AC_UF350,350_QL80_.jpg) (licence unknown) and Artistic Effects provided by Microsoft PowerPoint.
+-	Social Media icons (footer) and icons in the information boxes on index.html provided by [Font Awesome](https://www.fontawesome.com)
+-	All images in `assets/images` (except for `logo.png`) were purchased and adapted from [Adobe Stock](https://stock.adobe.com/at/)
 
 
 
