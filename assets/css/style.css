@@ -247,6 +247,49 @@ header img {
     height: 250px;
 }
 
+/* Link to Stories Page */
+
+.link-to-stories-page {
+    background: whitesmoke url(../images/grill-party.webp) no-repeat center center / cover;
+    background-position-y: 30%;
+    height: 250px;
+    border: 2px solid #5A120A;
+    margin: 15px 0;
+}
+
+.transparent-background {
+    height: inherit;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.button-to-stories-page {
+    padding: 25px;
+    background-color: rgba(0, 0, 0, .4);
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    margin: 15px 20px;
+    font-size: x-large;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+a.button-to-stories-page,
+a.button-to-stories-page:visited {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a.button-to-stories-page:hover {
+    background-color: rgba(0, 0, 0, .8);
+    color: whitesmoke;
+    border: 4px solid whitesmoke;
+}
+
 /* Sign up button on index.html and cooking-class-sign-up.html */
 
 .sign-up-section {
@@ -495,5 +538,12 @@ footer p {
         height: 250px;
         background-position: 50% 50%;
         background-attachment: fixed;
+    }
+
+    /* Enlarge reading text for desktop screens */
+
+    p, ul {
+        line-height: 180%;
+        font-size: large;
     }
 }
