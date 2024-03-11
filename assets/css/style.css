@@ -491,9 +491,12 @@ footer a:hover {
 /* Styling for Privacy Policy Page */
 
 .privacy-policy-box {
+    align-self: center;
     text-align: center;
-    margin: 10px 30px;
-    padding-bottom: 150px;
+    width: 85%;
+    max-width: 850px;
+    margin-top: 30px;
+    margin-bottom: 150px;
 }
 
 
