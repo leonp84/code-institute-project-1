@@ -171,7 +171,7 @@ The footer contains the (fictional) business’ social media links that each ope
 
 #### Sign Up Page
 
-The sign-up page is where the critical transaction will hopefully take place. This page uses a unique background to create a positive impression of the potential desirable experience a customer can expect when signing up. The sign-up form is not bloated but asks the prospective customer for minimal information. The form uses validation to prevent spam or false signups.
+The sign-up page is where the critical transaction will hopefully take place. This page uses a unique background to create a positive impression of the potential desirable experience a customer can expect when signing up. The sign-up form is not bloated but asks the prospective customer for minimal information. The form uses validation to prevent spam or false signups. After filling in the form, visitors after taken to a thank you page to visually inform them that their submission has been successful.
 
 ![Screenshot of Sign up Page](assets/images/readme-images/readme-signup-page.webp)
 
@@ -293,6 +293,7 @@ GitHub Repository: https://github.com/leonp84/code-institute-project-1
 -	Website Colour Palette generated with [coolors.co](https://www.coolors.co)
 - Sign up Form Validation HTML and help with the parallex image (Background Attachment) from W3Schools [here](https://www.w3schools.com/tags/att_input_pattern.asp) and [here](https://www.w3schools.com/howto/howto_css_parallax.asp).
 -	Readme file layout and table of contents inspired (and partially adapted) from a project I completed on [FrontendMentor](https://github.com/leonp84/fm3-recipe-page/blob/main/README.md?plain=1)
+- Site Privacy Policy generated with [privacypolicies.com](https://www.privacypolicies.com)
 
 ### Media
 
