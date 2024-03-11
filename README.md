@@ -171,7 +171,7 @@ The footer contains the (fictional) business’ social media links that each ope
 
 #### Sign Up Page
 
-The sign-up page is where the critical transaction will hopefully take place. This page uses a unique background to create a positive impression of the potential desirable experience a customer can expect when signing up. The sign-up form is not bloated but asks the prospective customer for minimal information. The form uses validation to prevent spam or false signups. After filling in the form, visitors after taken to a thank you page to visually inform them that their submission has been successful.
+The sign-up page is where the critical transaction will hopefully take place. This page uses a unique background to create a positive impression of the potential desirable experience a customer can expect when signing up. The sign-up form is not bloated but asks the prospective customer for minimal information. The form uses validation to prevent spam or false signups. After filling in the form, visitors are redirected to a custom *thank you page*, to visually inform them that their submission has been successful.
 
 ![Screenshot of Sign up Page](assets/images/readme-images/readme-signup-page.webp)
 
