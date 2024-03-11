@@ -380,6 +380,25 @@ a.sign-up-button:hover {
     border: 0;
 }
 
+/* Styling for Thank You Page (after form submission) */
+
+.thank-you-box {
+    width: 80%;
+    max-width: 350px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 0 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 35px rgb(121, 99, 99);
+    margin-bottom: 130px;
+    align-self: center;
+}
+
+.thank-you-box h1 { 
+    font-size: xx-large;
+    line-height: 150%;
+}
+
 /* Stories Page Background Styling */
 
 .stories-page {
@@ -455,11 +474,13 @@ footer p {
 }
 
 .social-icons a,
-.social-icons a:visited {
+.social-icons a:visited,
+footer a {
     color: rgb(217, 217, 217);
 }
 
-.social-icons a:hover {
+.social-icons a:hover,
+footer a:hover {
     color: #5A120A;
 }
 
