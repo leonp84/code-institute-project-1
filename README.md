@@ -189,7 +189,7 @@ Adding photos of said customer next to his/her testimonial would further enhance
 
 ## Testing
 
-The site was extensively tested using varies screen sizes of different heights/widths to check for layout breakage. All internal and external links were checked to be working. Details below:
+The site was extensively tested using various screen sizes of different heights/widths to check for layout breakage. All internal and external links were checked to be working. Details below:
 
 ### Manual Testing
 
@@ -287,11 +287,11 @@ GitHub Repository: https://github.com/leonp84/code-institute-project-1
 
 ### Content
 
--	General design and content inspiration from the [Love Running Walkthrough Project](https://github.com/leonp84/love-running) from Code Institute.
+-	General design and content inspired by the [Love Running Walkthrough Project](https://github.com/leonp84/love-running) from Code Institute.
 -	General design inspiration from [Jim & Nicks Community BBQ]( https://www.jimnnicks.com/baby-back-ribs/) restaurant site.
--	The following fonts were provided by [Google Fonts]( https://fonts.google.com): "Bebas Neue", "Josefin Sans", "Roboto"
--	Website Colour Palette generated with [coolors.co](https://www.coolors.co)
-- Sign up Form Validation HTML and help with the parallex image (Background Attachment) from W3Schools [here](https://www.w3schools.com/tags/att_input_pattern.asp) and [here](https://www.w3schools.com/howto/howto_css_parallax.asp).
+-	The following fonts are provided by [Google Fonts]( https://fonts.google.com): "Bebas Neue", "Josefin Sans", "Roboto"
+-	Website Colour Palette generated using [coolors.co](https://www.coolors.co)
+- Sign up Form Validation HTML and help with the parallax image (Background Attachment) from W3Schools [here](https://www.w3schools.com/tags/att_input_pattern.asp) and [here](https://www.w3schools.com/howto/howto_css_parallax.asp).
 -	Readme file layout and table of contents inspired (and partially adapted) from a project I completed on [FrontendMentor](https://github.com/leonp84/fm3-recipe-page/blob/main/README.md?plain=1)
 - Site Privacy Policy generated with [privacypolicies.com](https://www.privacypolicies.com)
 
